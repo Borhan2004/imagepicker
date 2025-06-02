@@ -19,6 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         title: Text('GetX Imagepicker'),
+        centerTitle: true,
       ),
       body: Obx(() {
         return Column(
